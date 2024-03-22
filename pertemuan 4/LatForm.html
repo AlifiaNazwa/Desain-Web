@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2 align="center">Form Pendaftaran</h2>
+<table border="1"bgcolor="#OOFFOO">
+<form method="post" action="proses.php">
+<tr>
+    <td>Nama</td>
+    <td widh="200"><input type="text" name="name" size="10" /></td>
+</tr>
+<tr>
+    <td>Jenis Kelamin</td>
+    <td><select name="jk" size="1">
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option>
+    </select></td>
+</tr>
+<tr>
+    <td>Agama</td>
+    <td>
+    <input type="radio" name="hobby" values="Islam">Islam</option><br />
+    <input type="radio" name="hobby" values="Islam">Katholik</option><br />
+    <input type="radio" name="hobby" values="Islam">Protestan</option><br />
+    <input type="radio" name="hobby" values="Islam">Hindu</option><br />
+    <input type="radio" name="hobby" values="Islam">Budha</option>
+    </td>
+</tr>
+<tr>
+    <td>Hobby</td>
+    <td><input type="checkbox" name="hobby" values="Browsing"/>Browsing<br />
+        <input type="checkbox" name="hobby" values="Browsing"/>Game<br />
+        <input type="checkbox" name="hobby" values="Browsing"/>Olah Raga
+    </td>
+</tr>
+<tr>
+    <td>Alamat</td>
+    <td><textarea name="alamat" cols="20" rows"5"></textarea></td>
+</tr>
+<tr>
+    <td><input type="submit" values="Kirim" /></td>
+    <td><input type="reset" values="Batal" /></td>
+</tr>
+</form>    
+</table>  
+</body>
+</html>
